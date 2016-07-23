@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_background">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/clio_logo_nobg"
+        android:layout_marginTop="53dp"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="logo" />
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView">
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="147dp"
+            android:background="#F3FFFFFF"
+            android:layout_gravity="bottom"
+            android:id="@+id/relativeLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login"
+                android:id="@+id/login_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_above="@+id/signup_button"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:textStyle="bold"
+                android:background="@color/colorPrimary"
+                android:clickable="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign up"
+                android:id="@+id/signup_button"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignStart="@+id/login_button"
+                android:layout_marginBottom="23dp"
+                android:background="@color/colorPrimary"
+                android:clickable="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="USERNAME"
+                android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:ems="10"
+                android:id="@+id/id_editText"
+                android:editable="true"
+                android:textSize="18dp"
+                android:layout_above="@+id/signup_button"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="29dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_width="400dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/password_editText"
+                android:hint="PASSWORD"
+                android:textColorHint="@color/colorPrimary"
+                android:textColor="@color/colorPrimary"
+                android:editable="true"
+                android:textSize="18dp"
+                android:layout_below="@+id/login_button"
+                android:layout_alignStart="@+id/id_editText"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

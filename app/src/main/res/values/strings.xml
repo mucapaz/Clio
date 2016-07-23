@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Clio</string>
+    <string name="action_settings">Settings</string>
+    <string name="sample_text">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa</string>
+    <string name="btn_like">LIKE</string>
+    <string name="camera_capture"> Capture </string>
+</resources>

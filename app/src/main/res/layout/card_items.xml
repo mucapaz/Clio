@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_gravity="center"
+    android:layout_width="250dp"
+    android:layout_height="170dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/picture_container"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/card_frame"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:id="@+id/background"/>
+
+    <ImageView
+        android:id="@+id/item_swipe_left_indicator"
+        android:alpha="0"
+        android:elevation="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/up" />
+
+    <ImageView
+        android:id="@+id/item_swipe_right_indicator"
+        android:alpha="0"
+        android:elevation="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="30dp"
+        android:layout_gravity="right"
+        android:src="@drawable/down" />
+
+</FrameLayout>
